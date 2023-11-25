@@ -5,7 +5,7 @@ export const TipAmount = ({tipAmount}) => {
     return (tipAmount.bill / tipAmount.guests) * tipAmount.tip / 100;
   }
 
-  let result = calculate().toFixed();
+  let result = calculate().toFixed(2);
 
   if (!(result > 0) || result == Infinity){
     result = "0.00"
