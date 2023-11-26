@@ -1,6 +1,8 @@
 import React from 'react'
 
 export const TipPercent = ({value, setTipAmount, tipAmount}) => {
+  
+
 
     const btnStyle = 'h-12 bg-[#00474B] rounded flex items-center justify-center font-bold text-2xl cursor-pointer';
 

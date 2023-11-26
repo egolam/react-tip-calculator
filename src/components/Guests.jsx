@@ -3,6 +3,8 @@ import person from '../assets/icon-person.svg'
 
 export const Guests = ({tipAmount, setTipAmount}) => {
 
+
+
     function handleGuests(e){
         setTipAmount({...tipAmount,guests: Number(e.target.value)});
     }

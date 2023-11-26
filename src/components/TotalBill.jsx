@@ -2,6 +2,9 @@ import React from 'react'
 
 export const TotalBill = ({tipAmount}) => {
 
+
+
+
   function calculate(){
     return ((tipAmount.bill / tipAmount.guests) * tipAmount.tip / 100) + (tipAmount.bill / tipAmount.guests);
   }

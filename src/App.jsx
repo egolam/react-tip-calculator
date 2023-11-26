@@ -8,6 +8,7 @@ import { useState } from "react"
 
 function App() {
 
+
   const [tipAmount, setTipAmount] = useState({
     bill:"",
     tip: "",
@@ -23,7 +24,7 @@ function App() {
             <Tips tipAmount={tipAmount} setTipAmount={setTipAmount}/>
             <Guests tipAmount={tipAmount} setTipAmount={setTipAmount}/>
           </section>
-          <section className="sm:w-1/2 bg-[#00474B] rounded-2xl sm:p-10 p-6 flex flex-col gap-10 mt-8">
+          <section className="sm:w-1/2 bg-[#00474B] rounded-2xl sm:p-10 p-6 flex flex-col gap-10 mt-8 sm:mt-0">
             <TipAmount tipAmount={tipAmount}/>
             <TotalBill tipAmount={tipAmount}/>
             <Reset setTipAmount={setTipAmount} tipAmount={tipAmount}/>

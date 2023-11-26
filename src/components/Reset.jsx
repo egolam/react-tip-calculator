@@ -2,6 +2,8 @@ import React from 'react'
 
 export const Reset = ({tipAmount, setTipAmount}) => {
 
+
+
   const {bill, tip, guests} = tipAmount;
 
   function handleReset(){

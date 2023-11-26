@@ -4,6 +4,7 @@ import dollar from '../assets/icon-dollar.svg';
 export const Bill = ({setTipAmount, tipAmount}) => {
 
 
+
     function handleBill(e){
         setTipAmount({...tipAmount,bill: Number(e.target.value)});
     }

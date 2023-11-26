@@ -1,5 +1,7 @@
 export const TipAmount = ({tipAmount}) => {
 
+
+
   function calculate(){
 
     return (tipAmount.bill / tipAmount.guests) * tipAmount.tip / 100;

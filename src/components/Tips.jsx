@@ -3,6 +3,9 @@ import { TipPercent } from './TipPercent';
 
 export const Tips = ({setTipAmount, tipAmount}) => {
 
+
+
+
   const tips = [5,10,15,25,50];
 
     function handleCustomTip(e){
